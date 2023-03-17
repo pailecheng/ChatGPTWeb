@@ -11,6 +11,7 @@ const appStore = useAppStore()
 const chatStore = useChatStore()
 
 const { isMobile } = useBasicLayout()
+const show = ref(false)
 
 const collapsed = computed(() => appStore.siderCollapsed)
 
