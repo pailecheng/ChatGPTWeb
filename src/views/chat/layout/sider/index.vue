@@ -74,9 +74,6 @@ watch(
             New chat
           </NButton>
         </div>
-        <!--<div class="flex-1 min-h-0 pb-4 overflow-hidden">
-          <List />
-        </div>-->
         <div class="p-4">
           <NButton block @click="show = true">
             Prompt Store
