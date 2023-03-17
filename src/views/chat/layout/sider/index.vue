@@ -81,4 +81,5 @@ watch(
   <template v-if="isMobile">
     <div v-show="!collapsed" class="fixed inset-0 z-40 bg-black/40" @click="handleUpdateCollapsed" />
   </template>
+	 <PromptStore v-model:visible="show" />
 </template>
