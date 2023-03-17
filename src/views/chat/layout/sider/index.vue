@@ -2,6 +2,7 @@
 import type { CSSProperties } from 'vue'
 import { computed, ref, watch } from 'vue'
 import { NButton, NLayoutSider } from 'naive-ui'
+import List from './List.vue'
 import Footer from './Footer.vue'
 import { useAppStore, useChatStore } from '@/store'
 import { useBasicLayout } from '@/hooks/useBasicLayout'
@@ -72,6 +73,9 @@ watch(
           <NButton dashed block @click="handleAdd">
             New chat
           </NButton>
+        </div>
+				<div class="flex-1 min-h-0 pb-4 overflow-hidden">
+          <List />
         </div>
         <div class="p-4">
           <NButton block @click="show = true">
