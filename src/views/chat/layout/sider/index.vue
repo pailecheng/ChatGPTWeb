@@ -83,7 +83,6 @@ watch(
           </NButton>
         </div>
       </main>
-      <Footer />
     </div>
   </NLayoutSider>
   <template v-if="isMobile">
